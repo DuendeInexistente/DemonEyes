@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4000ecd5-ca70-42c1-9d0b-4b066eaa9d51",
+  "name": "tile tests",
+  "symbol": "bg_tile_tests",
+  "width": 255,
+  "height": 200,
+  "imageWidth": 2400,
+  "imageHeight": 1600,
+  "filename": "tile tests.png",
+  "tileColors": "",
+  "autoColor": false
+}

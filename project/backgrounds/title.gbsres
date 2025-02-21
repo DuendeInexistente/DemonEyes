@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "eebc18b0-e87c-4455-95ca-854025a90544",
+  "name": "title",
+  "symbol": "bg_title",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "title.png",
+  "tileColors": "00147+016+00e+016+007+",
+  "autoColor": false
+}

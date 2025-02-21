@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "20614e6b-bc18-4fae-b60b-0733e130b7b3",
+  "_index": 4,
+  "name": "Scene 4",
+  "backgroundId": "eebc18b0-e87c-4455-95ca-854025a90544",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [
+    "c0afc528-ccc1-4e48-b9a8-91876cc3fb2c",
+    "a1ddc51e-999a-4d4a-ad7c-92ef01a1e200",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [
+    "",
+    "a1ddc51e-999a-4d4a-ad7c-92ef01a1e200"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 522.4854368932039,
+  "y": 534.1359223300971,
+  "playerSpriteSheetId": "5e2856e6-1b40-4e7f-9b94-d4c84657a7e8",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

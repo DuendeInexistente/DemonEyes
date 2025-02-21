@@ -1,0 +1,64 @@
+{
+  "_resourceType": "actor",
+  "id": "f7e682f4-81e9-432f-8007-7efb6e212603",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ff047980-3bf0-4b0b-bbd2-ab74ac35d02b",
+  "prefabId": "af762537-2222-4cb9-b3e8-a6e2d4391d4f",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "661b3d12-92dc-43e7-afee-9f8f60e5d5ee": {
+      "id": "661b3d12-92dc-43e7-afee-9f8f60e5d5ee",
+      "args": {
+        "tileIndex": {
+          "type": "number",
+          "value": 9
+        }
+      }
+    },
+    "7444c7ae-536c-4851-b12a-9bdd6db9bb61": {
+      "id": "7444c7ae-536c-4851-b12a-9bdd6db9bb61",
+      "args": {
+        "layout": "dialogue",
+        "items": 4,
+        "option1": "\"and thus I be\" yo momma",
+        "option2": "12345678901234567",
+        "option3": "dsa",
+        "option5": "dddd",
+        "option4": "aa"
+      }
+    },
+    "1be591e3-9ac7-4a35-824c-b22b54685b67": {
+      "id": "1be591e3-9ac7-4a35-824c-b22b54685b67",
+      "args": {
+        "__section": "text",
+        "avatarId": "cefb541b-b0e1-4ea0-9217-53ccf2a2cd9b"
+      }
+    }
+  },
+  "symbol": "actor_3",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "cc82579c-0c2e-4628-b61b-7275d4523dc1"
+      },
+      "id": "e7c7d144-3fc9-432d-8d5b-0eeb8fbc496a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 5,
+  "y": 11,
+  "_index": 3
+}

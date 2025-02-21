@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "8d2d5fa3-a693-4f4e-ba59-ed41c4724b91",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 1,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "gay"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "18b186cf-ec2e-4f5d-aa98-cec70fa27b10"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

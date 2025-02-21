@@ -1,0 +1,65 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "living room.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Base.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "living room.tmx": {
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 104.625,
+                "y": 90.375
+            }
+        },
+        "room.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 120.125,
+                "y": 80.125
+            }
+        },
+        "tile tests.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 234.75,
+                "y": 143.25
+            }
+        }
+    },
+    "last.imagePath": "/home/duende/Documents/Untitled/assets/backgrounds",
+    "map.fixedSize": true,
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "Base.tsx",
+        "tile tests.tmx",
+        "room.tmx",
+        "living room.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "Base.tsx",
+        "tile tests.tmx",
+        "room.tmx",
+        "living room.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
