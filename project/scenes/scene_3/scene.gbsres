@@ -5,8 +5,8 @@
   "type": "ADVENTURE",
   "name": "Scene 3",
   "symbol": "scene_3",
-  "x": 260.911704312115,
-  "y": 494.58726899383987,
+  "x": 264,
+  "y": 496,
   "width": 20,
   "height": 30,
   "backgroundId": "2ac71990-965a-440a-a1ae-fd952fcdbb87",
@@ -30,5 +30,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "0017f+0f2+0014+0f2+0012+012+0024+022+0087+"
 }

@@ -36,7 +36,8 @@
         "frequency": 30,
         "duration": 0.3,
         "wait": true,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "ed5bd355-4523-4894-982f-8c5f9683a223"
     },
@@ -47,7 +48,8 @@
         "pitch": 4,
         "frequency": 30,
         "duration": 0.03,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "d55f478b-0457-4156-ae9b-2ded8dd22b8b"
     },
@@ -72,7 +74,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "96266c72-c860-44a7-b8d2-bbd2949ceb19"
     },
@@ -82,7 +85,8 @@
         "speedIn": 1,
         "speedOut": 1,
         "speed": 5,
-        "allowFastForward": true
+        "allowFastForward": true,
+        "__collapse": true
       },
       "id": "90fa4e6f-e81a-4b45-913c-dec43b872127"
     },
@@ -107,9 +111,27 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "5b0a4828-71b2-4e07-bce8-6eb836fdb48b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e75c9d49-952f-428a-9231-260658830235",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "139670d2-f745-4338-ba23-b92f9878adde"
     }
   ],
   "startScript": [],
