@@ -15,7 +15,7 @@
     "default-bg-4",
     "default-bg-5",
     "ea3185fa-1e3a-47e6-b8c0-2f9aea9964a8",
-    "26cc1d31-b502-44bc-aace-f5829034c2b2",
+    "ea3185fa-1e3a-47e6-b8c0-2f9aea9964a8",
     "default-ui"
   ],
   "spritePaletteIds": [],
@@ -23,7 +23,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 264,
-  "y": 760,
+  "y": 776,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],

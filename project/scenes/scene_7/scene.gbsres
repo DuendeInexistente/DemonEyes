@@ -12,10 +12,10 @@
     "default-bg-1",
     "default-bg-2",
     "7282fe69-2e7b-4ce8-959c-fda4eec4b729",
-    "default-bg-4",
+    "fedbe49d-c3be-48f3-b164-68cc855d07fa",
     "default-bg-5",
     "8b65dc55-e806-49f2-92ce-68516f5b6bb6",
-    "26cc1d31-b502-44bc-aace-f5829034c2b2",
+    "8b65dc55-e806-49f2-92ce-68516f5b6bb6",
     "default-ui"
   ],
   "spritePaletteIds": [
@@ -32,7 +32,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 264,
-  "y": 1024,
+  "y": 1056,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],

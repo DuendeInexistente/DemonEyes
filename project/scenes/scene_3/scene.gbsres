@@ -14,11 +14,11 @@
   "paletteIds": [
     "",
     "",
-    "",
+    "9d25d08d-9d97-47ce-930e-9c21332ddc65",
     "",
     "",
     "508751b8-75a6-4629-898b-2ee3d73991b7",
-    "9d25d08d-9d97-47ce-930e-9c21332ddc65"
+    "default-bg-3"
   ],
   "spritePaletteIds": [
     "default-bg-2",
@@ -30,5 +30,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0017f+0f2+0014+0f2+0012+012+0024+022+0087+"
+  "collisions": "0067+0f2+0012+0f2+00!0f2+00f+0f2+00!0f2+00f+0f2+00!0f3+00e+0f2+0014+0f!0044+0f3+002e+0f3+04!002+08!0f5+00b+0f!007+0f3+0056+0f!00!0f9+009+0f!00!0f9+00b+0f9+009+0f!002+0f2+003+0f2+00a+0f!007+0f!0044+"
 }
