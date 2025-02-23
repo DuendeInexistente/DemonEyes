@@ -39,17 +39,59 @@
   "symbol": "script_2",
   "script": [
     {
-      "command": "EVENT_INC_VALUE",
+      "command": "PT_EVENT_REPAINT_BACKGROUND",
+      "args": {},
+      "id": "a51a4ad3-a200-4832-99e6-022ad1733cc1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "V0"
+        "variable": "V8",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
       },
-      "id": "52366578-185b-4848-b092-74d80da8b44f"
+      "id": "3f59bffa-90cc-404c-83c5-10bcd00cfb41"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "V9"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V0",
+              "__collapse": false
+            },
+            "id": "643ffb7c-9b59-4bbf-a793-02f670d5ffcc"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "V0"
+            },
+            "id": "460744b4-214b-4ecb-b226-8af4169ba1ba"
+          }
+        ]
+      },
+      "id": "0385be1a-693f-4681-b3a5-da85b8f52703"
     },
     {
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
-          "type": "lt",
+          "type": "lte",
           "valueA": {
             "type": "variable",
             "value": "V8"
@@ -58,7 +100,8 @@
             "type": "number",
             "value": 10
           }
-        }
+        },
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -69,9 +112,9 @@
               "choices": 3,
               "__collapseCase0": false,
               "value0": 1,
-              "__collapseCase1": true,
+              "__collapseCase1": false,
               "value1": 2,
-              "__collapseCase2": false,
+              "__collapseCase2": true,
               "value2": 3,
               "__collapseCase3": false,
               "value3": 4,
@@ -99,7 +142,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": true
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true0": [
@@ -119,8 +163,8 @@
                         "command": "EVENT_TEXT_DRAW",
                         "args": {
                           "text": "- If a woodchuck could chuck wood, how\nmuch wood would a woodchuck chuck?",
-                          "x": 12,
-                          "y": 2,
+                          "x": 2,
+                          "y": 9,
                           "location": "background"
                         },
                         "id": "76451771-f83a-4158-bd8d-0d50250c6c9a"
@@ -162,6 +206,13 @@
                     ]
                   },
                   "id": "12d87cdc-4fa3-47d3-85ac-5be44ba90969"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "V8"
+                  },
+                  "id": "8416b9a2-4a28-4c74-9cd7-b4f29d652603"
                 }
               ],
               "true1": [
@@ -181,8 +232,8 @@
                         "command": "EVENT_TEXT_DRAW",
                         "args": {
                           "text": "SAMSARA OF CUT SINEW AND CRUSHED BONE.\nDEATH WITHOUT LIFE. NULL OUROBOROS. ALL\nTHAT REMAINED IS WAR WITHOUT REASON.",
-                          "x": 12,
-                          "y": 2,
+                          "x": 2,
+                          "y": 9,
                           "location": "background"
                         },
                         "id": "f9a7fa9b-fa21-4946-96bb-b7b39a32d6ef"
@@ -226,14 +277,11 @@
                   "id": "9394a9ae-b1e6-4ba9-bcc4-e640e7cc5916"
                 },
                 {
-                  "command": "EVENT_TEXT_DRAW",
+                  "command": "EVENT_INC_VALUE",
                   "args": {
-                    "text": "",
-                    "x": 12,
-                    "y": 12,
-                    "location": "background"
+                    "variable": "V8"
                   },
-                  "id": "ffc67db9-7ce4-4a4c-94dd-5984082eb377"
+                  "id": "9b9cc14a-fdd4-4cf2-a810-1764e12f7eef"
                 }
               ],
               "true2": [
@@ -253,8 +301,8 @@
                         "command": "EVENT_TEXT_DRAW",
                         "args": {
                           "text": "\"Behold! The awesome fires of God. The\nlimitless power of pure creation itself.\nLook carefully! Observe how it is used\nfor the same purpose a man might use an\nespecially sharp rock.\"",
-                          "x": 12,
-                          "y": 2,
+                          "x": 2,
+                          "y": 9,
                           "location": "background"
                         },
                         "id": "2a60ad2f-f179-490a-9067-93b819054622"
@@ -268,7 +316,8 @@
                             "type": "variable",
                             "value": "V9"
                           },
-                          "__collapseElse": false
+                          "__collapseElse": false,
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
@@ -296,6 +345,13 @@
                     ]
                   },
                   "id": "1f4c64d5-1aa6-4cb3-a11d-013f44d5566b"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "V8"
+                  },
+                  "id": "3cc2c16d-f8be-4f2e-b68d-9f66c6a60c7f"
                 }
               ],
               "true3": [],
@@ -311,20 +367,127 @@
               "true13": [],
               "true14": [],
               "true15": [],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false,
+                    "__comment": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V0",
+                          "value": {
+                            "type": "number",
+                            "value": 3
+                          }
+                        },
+                        "id": "0925802d-36fa-4961-90ec-2e0942761917"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "9448798f-6472-4854-8e8c-89c0eda40144"
+                }
+              ]
             },
             "id": "96f3acc9-5998-4937-ab9f-36ee31d65006"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V0",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "ea9d3b7a-43d3-47f0-b216-64704f4454ea"
+                }
+              ],
+              "false": []
+            },
+            "id": "2855bcb0-ba6e-4a70-bbcf-925de5369735"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "V0",
+                    "value": {
+                      "type": "number",
+                      "value": 3
+                    }
+                  },
+                  "id": "93833a26-7f68-4e0d-a9bb-1b2497940ec3"
+                }
+              ],
+              "false": []
+            },
+            "id": "0079a12a-e430-4b96-a2a4-c3c654194fd5"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V8"
+            },
+            "id": "61523e4b-9aa6-4bce-99b3-f64d71e410a1"
           }
         ]
       },
       "id": "422fb026-cefc-46c3-b214-267b81bca63e"
-    },
-    {
-      "command": "EVENT_INC_VALUE",
-      "args": {
-        "variable": "V8"
-      },
-      "id": "61523e4b-9aa6-4bce-99b3-f64d71e410a1"
     }
   ]
 }

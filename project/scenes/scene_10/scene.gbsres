@@ -42,7 +42,7 @@
       "args": {
         "variable": "L2",
         "value": {
-          "type": "false"
+          "type": "true"
         }
       },
       "id": "0e719317-a011-4106-9f92-49a79e019ecb"
@@ -75,20 +75,10 @@
         "text": "[<] Select [>]\n[B] Confirm",
         "x": 6,
         "y": 16,
-        "location": "background"
+        "location": "background",
+        "__comment": true
       },
       "id": "0871253d-b622-44ee-92df-6f4ff8fe14eb"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L4",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "80ef9429-2be6-46d6-bdfb-169cbb497879"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -97,17 +87,11 @@
           "right"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "L5"
-            },
-            "id": "4d71b8d0-2cac-4d8f-9f84-657fca1744a8"
-          },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
@@ -149,17 +133,11 @@
           "left"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_DEC_VALUE",
-            "args": {
-              "variable": "L5"
-            },
-            "id": "917a0c5e-383d-4d8e-8577-f899febbf0fe"
-          },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
@@ -193,6 +171,165 @@
         ]
       },
       "id": "cdfb1b09-7744-459a-8d4a-5c2be6954cfe"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "PT_EVENT_REPAINT_BACKGROUND",
+            "args": {},
+            "id": "c680ba0f-613c-4944-bf40-43491c09d75b"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L5",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "Your mother looks like a cow!",
+                    "x": 1,
+                    "y": 1,
+                    "location": "background"
+                  },
+                  "id": "2a75896d-8de4-49c6-86ae-27eb26a9c75c"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1.5,
+                    "frames": 30
+                  },
+                  "id": "9b2158cb-225f-4e64-bc03-8a5a1f8f2e56"
+                },
+                {
+                  "command": "PT_EVENT_REPAINT_BACKGROUND",
+                  "args": {},
+                  "id": "ad24efb9-9056-4397-8a16-f0d87104597e"
+                },
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "...",
+                    "x": 1,
+                    "y": 1,
+                    "location": "background"
+                  },
+                  "id": "f19362d9-cfa1-4016-bc9d-a974303ae31e"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30
+                  },
+                  "id": "b3d0af7e-d3ec-4a32-a9d4-aa0f8cc15936"
+                },
+                {
+                  "command": "PT_EVENT_REPAINT_BACKGROUND",
+                  "args": {},
+                  "id": "53c8ee23-b2db-434c-95b2-18f3b5ddb38f"
+                },
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "That was the quote, right?",
+                    "x": 1,
+                    "y": 1,
+                    "location": "background"
+                  },
+                  "id": "f4991d28-a714-4e8b-98d8-2897ea340fa6"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "HELL IS FULL.",
+                    "x": 1,
+                    "y": 1,
+                    "location": "background"
+                  },
+                  "id": "f3c55968-6a6b-4b70-adcc-775395b8df0f"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "Today, as I killed five thousand men, I\nthought of very little. Tomorrow, I expect,\nshall be the same. When my work is done,\nthere will be a mound so high that it will\nstick in the eye of God. Have you come to\nadd to the pile?\"",
+                    "x": 1,
+                    "y": 1,
+                    "location": "background"
+                  },
+                  "id": "6f3ed987-b1da-4dda-b4f6-6798d48f1a1f"
+                }
+              ],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "bed75f15-f644-4d10-ba57-e03c0470bbdb"
+          }
+        ]
+      },
+      "id": "7716b0a8-f958-40c4-8a7f-6d8ecab9bcd5"
     },
     {
       "command": "EVENT_SET_VALUE",
