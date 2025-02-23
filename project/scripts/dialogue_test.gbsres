@@ -114,7 +114,7 @@
               "value0": 1,
               "__collapseCase1": false,
               "value1": 2,
-              "__collapseCase2": true,
+              "__collapseCase2": false,
               "value2": 3,
               "__collapseCase3": false,
               "value3": 4,
@@ -168,6 +168,17 @@
                           "location": "background"
                         },
                         "id": "76451771-f83a-4158-bd8d-0d50250c6c9a"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V8",
+                          "value": {
+                            "type": "number",
+                            "value": 150
+                          }
+                        },
+                        "id": "9c44cf6f-6406-49f2-8ba1-7c6e28b3ad92"
                       }
                     ],
                     "false": [
@@ -237,6 +248,17 @@
                           "location": "background"
                         },
                         "id": "f9a7fa9b-fa21-4946-96bb-b7b39a32d6ef"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V8",
+                          "value": {
+                            "type": "number",
+                            "value": 150
+                          }
+                        },
+                        "id": "48f4bc12-0bee-4428-ac36-e437fa2f367c"
                       }
                     ],
                     "false": [
@@ -306,6 +328,17 @@
                           "location": "background"
                         },
                         "id": "2a60ad2f-f179-490a-9067-93b819054622"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V8",
+                          "value": {
+                            "type": "number",
+                            "value": 150
+                          }
+                        },
+                        "id": "18bcda1a-261f-4788-82fa-d29bb4997103"
                       }
                     ],
                     "false": [
