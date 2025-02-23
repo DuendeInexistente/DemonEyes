@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "aec70b7a-8d1c-414f-b6f4-a8188c83bb22",
+  "name": "grid",
+  "symbol": "bg_grid",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "grid.png",
+  "tileColors": ""
+}

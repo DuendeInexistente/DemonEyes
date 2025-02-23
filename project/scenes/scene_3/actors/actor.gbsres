@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "09d40efe-a30b-4f2b-8864-4d8ee8a4ced4",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -17,121 +17,21 @@
   "symbol": "actor_5",
   "script": [
     {
-      "command": "EVENT_SET_MUSIC_ROUTINE",
-      "args": {
-        "routine": 0,
-        "__scriptTabs": "trigger"
-      },
-      "children": {
-        "true": []
-      },
-      "id": "25c524c1-f423-49df-b680-71925ab2b786"
-    },
-    {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
-      "args": {
-        "type": "tone",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 30,
-        "duration": 0.3,
-        "wait": true,
-        "effect": 0,
-        "__collapse": true
-      },
-      "id": "ed5bd355-4523-4894-982f-8c5f9683a223"
-    },
-    {
-      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
-      "args": {
-        "type": "tone",
-        "pitch": 4,
-        "frequency": 30,
-        "duration": 0.03,
-        "effect": 0,
-        "__collapse": true
-      },
-      "id": "d55f478b-0457-4156-ae9b-2ded8dd22b8b"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "asdsadsadasdasdsa"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "96266c72-c860-44a7-b8d2-bbd2949ceb19"
-    },
-    {
-      "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-      "args": {
-        "speedIn": 1,
-        "speedOut": 1,
-        "speed": 5,
-        "allowFastForward": true,
-        "__collapse": true
-      },
-      "id": "90fa4e6f-e81a-4b45-913c-dec43b872127"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "mi mama me mima y yo mimo\na mi mama mama mia ñ"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "5b0a4828-71b2-4e07-bce8-6eb836fdb48b"
-    },
-    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e75c9d49-952f-428a-9231-260658830235",
+        "sceneId": "66e05c75-b20f-45d7-a174-3a85be7542ae",
         "x": {
           "type": "number",
-          "value": 8
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 21
+          "value": 0
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "139670d2-f745-4338-ba23-b92f9878adde"
+      "id": "c93e84ac-7fad-4521-8fa6-9c4b87317df8"
     }
   ],
   "startScript": [],

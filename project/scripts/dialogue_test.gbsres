@@ -1,0 +1,330 @@
+{
+  "_resourceType": "script",
+  "id": "8af60c8e-96bd-409b-826c-07c381491353",
+  "name": "Dialogue test",
+  "description": "Dialogue test",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "CurrDial",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Gato",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Pollo",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "Ave",
+      "passByReference": true
+    },
+    "V8": {
+      "id": "V8",
+      "name": "Loops",
+      "passByReference": true
+    },
+    "V9": {
+      "id": "V9",
+      "name": "Advancing",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V0"
+      },
+      "id": "52366578-185b-4848-b092-74d80da8b44f"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "V8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 10
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": true,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "V1"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_DRAW",
+                        "args": {
+                          "text": "- If a woodchuck could chuck wood, how\nmuch wood would a woodchuck chuck?",
+                          "x": 12,
+                          "y": 2,
+                          "location": "background"
+                        },
+                        "id": "76451771-f83a-4158-bd8d-0d50250c6c9a"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "V9"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "__collapse": false
+                              },
+                              "id": "30a956d3-9915-4d4f-8421-8eb656066e5d"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_DEC_VALUE",
+                              "args": {
+                                "variable": "V0"
+                              },
+                              "id": "5d2837c2-5fa8-4ce9-a5c7-2a28580010d3"
+                            }
+                          ]
+                        },
+                        "id": "5d45c48f-4ff9-4a5e-9a1f-b8f8b156e889"
+                      }
+                    ]
+                  },
+                  "id": "12d87cdc-4fa3-47d3-85ac-5be44ba90969"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "V2"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_DRAW",
+                        "args": {
+                          "text": "SAMSARA OF CUT SINEW AND CRUSHED BONE.\nDEATH WITHOUT LIFE. NULL OUROBOROS. ALL\nTHAT REMAINED IS WAR WITHOUT REASON.",
+                          "x": 12,
+                          "y": 2,
+                          "location": "background"
+                        },
+                        "id": "f9a7fa9b-fa21-4946-96bb-b7b39a32d6ef"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "V9"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "__collapse": false
+                              },
+                              "id": "ced08d87-5923-4591-8f2a-ff12a2d3bd85"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_DEC_VALUE",
+                              "args": {
+                                "variable": "V0"
+                              },
+                              "id": "b23ffbc3-a42c-4183-b5d4-8acefa85ed9b"
+                            }
+                          ]
+                        },
+                        "id": "a22d5199-dd16-4ffc-a06f-e4a0fb83191d"
+                      }
+                    ]
+                  },
+                  "id": "9394a9ae-b1e6-4ba9-bcc4-e640e7cc5916"
+                },
+                {
+                  "command": "EVENT_TEXT_DRAW",
+                  "args": {
+                    "text": "",
+                    "x": 12,
+                    "y": 12,
+                    "location": "background"
+                  },
+                  "id": "ffc67db9-7ce4-4a4c-94dd-5984082eb377"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "V3"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_DRAW",
+                        "args": {
+                          "text": "\"Behold! The awesome fires of God. The\nlimitless power of pure creation itself.\nLook carefully! Observe how it is used\nfor the same purpose a man might use an\nespecially sharp rock.\"",
+                          "x": 12,
+                          "y": 2,
+                          "location": "background"
+                        },
+                        "id": "2a60ad2f-f179-490a-9067-93b819054622"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "V9"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "__collapse": false
+                              },
+                              "id": "b9b1eb92-628f-4d46-9b1e-56a9924063d4"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_DEC_VALUE",
+                              "args": {
+                                "variable": "V0"
+                              },
+                              "id": "661ef813-6fa1-4abe-b661-99829fe1c043"
+                            }
+                          ]
+                        },
+                        "id": "95481706-2236-4f14-985d-2e16e4a487d0"
+                      }
+                    ]
+                  },
+                  "id": "1f4c64d5-1aa6-4cb3-a11d-013f44d5566b"
+                }
+              ],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "96f3acc9-5998-4937-ab9f-36ee31d65006"
+          }
+        ]
+      },
+      "id": "422fb026-cefc-46c3-b214-267b81bca63e"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V8"
+      },
+      "id": "61523e4b-9aa6-4bce-99b3-f64d71e410a1"
+    }
+  ]
+}

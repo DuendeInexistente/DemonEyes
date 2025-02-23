@@ -64,13 +64,13 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "337e63b7-346f-480a-9ee6-1b2f17bd52a2",
+        "type": "ecc62dab-61c2-4592-8317-82d4fb607473",
         "priority": "medium",
         "pitch": 4,
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 0
+        "effect": 16
       },
       "id": "1f6882f6-9f08-4b62-995e-5036f40ad8be"
     }

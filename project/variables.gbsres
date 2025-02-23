@@ -1,4 +1,30 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "66e05c75-b20f-45d7-a174-3a85be7542ae__L0",
+      "name": "pollo",
+      "symbol": "var_pollo"
+    },
+    {
+      "id": "66e05c75-b20f-45d7-a174-3a85be7542ae__L5",
+      "name": "CurrDial",
+      "symbol": "var_currdial"
+    },
+    {
+      "id": "66e05c75-b20f-45d7-a174-3a85be7542ae__L1",
+      "name": "Gato",
+      "symbol": "var_gato"
+    },
+    {
+      "id": "66e05c75-b20f-45d7-a174-3a85be7542ae__L2",
+      "name": "Ave",
+      "symbol": "var_ave"
+    },
+    {
+      "id": "66e05c75-b20f-45d7-a174-3a85be7542ae__L4",
+      "name": "Loops",
+      "symbol": "var_loops"
+    }
+  ]
 }

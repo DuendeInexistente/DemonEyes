@@ -34,6 +34,27 @@
         }
       },
       "id": "9450f989-b804-4ad5-ab19-01cea060a2c4"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "white",
+        "x": 0,
+        "y": 2,
+        "__collapse": true
+      },
+      "id": "02c63aa1-b1ab-4f66-9554-65809231efa0"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "dasdasdadadsad\nmi mama me mima y yo\nmima mimo mima\nmimo mima",
+        "x": 0,
+        "y": 0,
+        "location": "overlay",
+        "__collapse": true
+      },
+      "id": "1c9f950c-ca2b-4ea0-ad87-0f9b2bdab88c"
     }
   ],
   "startScript": [],
@@ -49,7 +70,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 11,
-  "y": 3,
+  "x": 13,
+  "y": 14,
   "_index": 2
 }

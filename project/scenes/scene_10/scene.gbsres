@@ -1,0 +1,213 @@
+{
+  "_resourceType": "scene",
+  "id": "66e05c75-b20f-45d7-a174-3a85be7542ae",
+  "_index": 9,
+  "name": "Scene 10",
+  "backgroundId": "aec70b7a-8d1c-414f-b6f4-a8188c83bb22",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 520,
+  "y": 784,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "9a910c76-c047-4624-acd0-aa888e442ee2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "47a5a83d-4ed2-4296-8a00-d65f1df1ba3b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "0e719317-a011-4106-9f92-49a79e019ecb"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "- If a woodchuck could chuck wood, how\nmuch wood would a woodchuck chuck?",
+        "x": 1,
+        "y": 1,
+        "location": "background",
+        "__comment": true
+      },
+      "id": "3154bd1d-0623-4249-9698-f8f8dd4d3ea4"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "",
+        "x": 1,
+        "y": 4,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "3aa763bd-1a50-41f6-a2a5-66ccc0cc407c"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "[<] Select [>]\n[B] Confirm",
+        "x": 6,
+        "y": 16,
+        "location": "background"
+      },
+      "id": "0871253d-b622-44ee-92df-6f4ff8fe14eb"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L4",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "80ef9429-2be6-46d6-bdfb-169cbb497879"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "L5"
+            },
+            "id": "4d71b8d0-2cac-4d8f-9f84-657fca1744a8"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8af60c8e-96bd-409b-826c-07c381491353",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "$variable[V9]$": {
+                "type": "true"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "$variable[V8]$": {
+                "type": "variable",
+                "value": "L4"
+              }
+            },
+            "id": "5796f0f7-9a41-45ea-b26e-9c3140c14f56"
+          }
+        ]
+      },
+      "id": "81d58635-a66c-4c99-aecf-5c7185c666c7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "L5"
+            },
+            "id": "917a0c5e-383d-4d8e-8577-f899febbf0fe"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "8af60c8e-96bd-409b-826c-07c381491353",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "$variable[V9]$": {
+                "type": "false"
+              },
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "$variable[V2]$": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "$variable[V3]$": {
+                "type": "variable",
+                "value": "L2"
+              },
+              "$variable[V8]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "1a537535-9cae-489e-a17a-4125a33e4093"
+          }
+        ]
+      },
+      "id": "cdfb1b09-7744-459a-8d4a-5c2be6954cfe"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L5",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "5e0a7f5e-3f93-4d89-8c81-d21f561ddde9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5e2856e6-1b40-4e7f-9b94-d4c84657a7e8"
+}
