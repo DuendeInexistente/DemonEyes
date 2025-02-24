@@ -5,4 +5,6 @@
 	- ![[Knight.png]]
 - [x] Protagonista
 	- ![[prota.png]]
-- [ ] Demonio
+- [x] Demonio
+	-  ![[bigdevil.png]]
+	- ![[devil.png]]
