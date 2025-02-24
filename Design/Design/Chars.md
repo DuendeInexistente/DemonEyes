@@ -1,0 +1,8 @@
+- [x] Diabla
+	- ![[woman.png]]
+- [ ] Mujer
+- [x] Myrmidon 
+	- ![[Knight.png]]
+- [x] Protagonista
+	- ![[prota.png]]
+- [ ] Demonio
