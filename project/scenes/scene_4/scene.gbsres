@@ -31,48 +31,34 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "       \n       ",
-        "x": 0,
+        "text": "New \nGame",
+        "x": 1,
         "y": 1,
         "location": "background",
-        "__collapse": true
-      },
-      "id": "5394676c-963c-4c5f-9ebb-4d4c41b363a2"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "New\nGame",
-        "x": 0,
-        "y": 1,
-        "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "46aa3969-96e5-49fb-aa3e-b00bbab8f0fc"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Load\nGame",
-        "x": 16,
+        "text": "Load \nGame",
+        "x": 15,
         "y": 1,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e99a8f6d-160f-463a-9797-009fa74aa275"
     },
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "command": "EVENT_TEXT_DRAW",
       "args": {
-        "type": "ecc62dab-61c2-4592-8317-82d4fb607473",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": true,
-        "effect": 16
+        "text": "@un-daguerrotipo!F:0e660d1b-8297-4fc8-b101-628f633fb58e!.bsky.social",
+        "x": 3,
+        "y": 0,
+        "location": "background"
       },
-      "id": "1f6882f6-9f08-4b62-995e-5036f40ad8be"
+      "id": "130e1c4d-3ad2-45eb-8e15-8fc11dc4c790"
     }
   ],
   "playerHit1Script": [],

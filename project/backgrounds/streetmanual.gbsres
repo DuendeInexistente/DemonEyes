@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "07ea6a9b-ceca-450c-8074-0f734b3ceab5",
+  "name": "streetmanual",
+  "symbol": "bg_streetmanual",
+  "width": 40,
+  "height": 20,
+  "imageWidth": 320,
+  "imageHeight": 160,
+  "filename": "streetmanual.png",
+  "tileColors": "02a4+05!02d+05!02d+05!02b+05!02d+05!02d+05!022f+07208+"
+}

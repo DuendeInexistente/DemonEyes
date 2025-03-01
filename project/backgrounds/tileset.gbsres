@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64b0b42b-9a6b-49d2-9636-658ea746f66f",
+  "name": "tileset",
+  "symbol": "bg_tileset",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "tileset.png",
+  "tileColors": "",
+  "autoColor": false
+}

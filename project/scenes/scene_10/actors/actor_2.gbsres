@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ff047980-3bf0-4b0b-bbd2-ab74ac35d02b",
+  "spriteSheetId": "c8beb820-3abe-401f-ae1b-3c058d621c9a",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 4,
@@ -21,7 +21,7 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
-        "spriteStateId": "Still",
+        "spriteStateId": "Dial",
         "loopAnim": true
       },
       "id": "67522ff6-c0f0-46cc-bcf2-4b8eb5dd593e"
@@ -42,6 +42,14 @@
         "useCollisions": false
       },
       "id": "b60d42e2-64c6-46ce-aebe-cfdc8e2321c1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "f3746851-f213-4aef-ad0e-ce8e7bdd7f5a",
+        "spriteSheetId": "dd40efa5-4204-4209-8054-6f98987533ff"
+      },
+      "id": "df74728a-85a9-44ab-8f51-3946116ea992"
     }
   ],
   "updateScript": [],

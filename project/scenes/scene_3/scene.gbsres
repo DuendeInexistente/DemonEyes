@@ -25,7 +25,7 @@
     "a1ddc51e-999a-4d4a-ad7c-92ef01a1e200"
   ],
   "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "36fdfc2d-0c30-464d-add8-1c7d30eee41b",
+  "playerSpriteSheetId": "c8beb820-3abe-401f-ae1b-3c058d621c9a",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

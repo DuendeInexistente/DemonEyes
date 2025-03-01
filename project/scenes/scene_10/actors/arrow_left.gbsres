@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "3e10764a-8886-4f85-823f-669e982e1779",
+  "name": "Arrow_Left",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "DialArrows",
+        "loopAnim": true
+      },
+      "id": "e25739ba-43f8-4731-be83-4bd7e44d3220"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 17,
+  "_index": 3
+}

@@ -42,6 +42,14 @@
         "useCollisions": false
       },
       "id": "57b70806-2499-4a23-970c-35eaa79a1b2e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "6aa9b99f-5c6f-4190-b516-bc900dcb6929",
+        "spriteSheetId": "c0d2bd42-7eb0-4534-aeca-4ed207e1f7b7"
+      },
+      "id": "ebe7fae3-e162-46b0-8f56-931e9d3ae148"
     }
   ],
   "updateScript": [],

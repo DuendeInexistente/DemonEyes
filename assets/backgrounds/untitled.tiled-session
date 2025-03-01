@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "2ndfloorbridged.tmx",
+    "activeFile": "street2.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -12,28 +12,28 @@
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 77.25,
-                "y": 122.375
+                "x": 80.125,
+                "y": 120.125
             }
         },
         "2ndfloorbridged.tmx": {
             "scale": 3.5110416666666664,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 80.03322850531063,
-                "y": 120.04984275796595
+                "x": 79.89082062540795,
+                "y": 120.04984275796596
             }
         },
         "Base.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 4,
             "scaleInEditor": 1
         },
         "living room.tmx": {
             "scale": 5.5,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 72.36363636363637,
-                "y": 156.45454545454547
+                "x": 80.0909090909091,
+                "y": 120.0909090909091
             }
         },
         "room.tmx": {
@@ -44,29 +44,47 @@
                 "y": 80.125
             }
         },
-        "tile tests.tmx": {
-            "scale": 2,
+        "street.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 204.66666666666669,
+                "y": 244.33333333333331
+            }
+        },
+        "street2.tmx": {
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 527,
-                "y": 323.25
+                "x": 127.33333333333334,
+                "y": 121.83333333333333
+            }
+        },
+        "tile tests.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1214.1666666666665,
+                "y": 800.1666666666666
             }
         }
     },
     "last.imagePath": "/home/duende/Documents/Untitled/assets/backgrounds",
     "map.fixedSize": true,
-    "map.height": 30,
+    "map.height": 20,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "Base.tsx",
         "tile tests.tmx",
         "room.tmx",
         "living room.tmx",
         "2ndfloor.tmx",
-        "2ndfloorbridged.tmx"
+        "2ndfloorbridged.tmx",
+        "street.tmx",
+        "street2.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
@@ -75,7 +93,9 @@
         "room.tmx",
         "living room.tmx",
         "2ndfloor.tmx",
-        "2ndfloorbridged.tmx"
+        "2ndfloorbridged.tmx",
+        "street.tmx",
+        "street2.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

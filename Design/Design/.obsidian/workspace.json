@@ -36,6 +36,32 @@
             }
           },
           {
+            "id": "c66465a7a30a1a91",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-23 20.07.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-23 20.07.42.excalidraw"
+            }
+          },
+          {
+            "id": "2a4929c917ab8dda",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.google.com/maps/place/San+Telmo,+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.6215087,-58.3713707,3a,75y,59.91h,103.22t/data=!3m8!1e1!3m6!1s0XxgT4at_dLQMF4DDn3u1w!2e0!5s20241201T000000!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-13.219999999999999%26panoid%3D0XxgT4at_dLQMF4DDn3u1w%26yaw%3D59.91!7i16384!8i8192!4m7!3m6!1s0x95bccb2d125e1c01:0xacd97607979875ab!8m2!3d-34.6218351!4d-58.3713942!10e5!16zL20vMDJkeDRf?entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D",
+                "title": "1179 Defensa - Google Maps",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "1179 Defensa - Google Maps"
+            }
+          },
+          {
             "id": "f1ebca6bb31ccbb0",
             "type": "leaf",
             "state": {
@@ -50,29 +76,13 @@
             }
           },
           {
-            "id": "3fce8d6aa79c43f1",
+            "id": "d32e223493113a60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chars.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chars"
-            }
-          },
-          {
-            "id": "58d38eabd6aa0357",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-02-23 21.49.30.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-23 21.49.30.excalidraw"
+              "title": "New tab"
             }
           }
         ],
@@ -96,7 +106,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -219,13 +229,23 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "f89639797e678fff",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,19 +262,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fce8d6aa79c43f1",
+  "active": "2a4929c917ab8dda",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-23 20.07.42.excalidraw.md",
+    "Day 0.md",
+    "Layout.md",
+    "Chars.md",
+    "Credits.md",
+    "Excalidraw/Drawing 2025-02-23 21.49.30.excalidraw.md",
     "attachments/devil.png",
     "attachments/bigdevil.png",
     "attachments/prota.png",
-    "Excalidraw/Drawing 2025-02-23 21.49.30.excalidraw.md",
-    "Chars.md",
     "attachments/Knight.png",
     "attachments/woman.png",
     "attachments/woman.aseprite",
-    "Layout.md",
-    "Excalidraw/Drawing 2025-02-23 20.07.42.excalidraw.md",
-    "Day 0.md",
     "Excalidraw",
     "attachments/Pasted image 20250223200655.png",
     "attachments",

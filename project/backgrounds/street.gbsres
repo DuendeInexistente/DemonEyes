@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "307e1929-4479-45f0-ac23-9d9fb3842feb",
+  "name": "street",
+  "symbol": "bg_street",
+  "width": 40,
+  "height": 20,
+  "imageWidth": 320,
+  "imageHeight": 160,
+  "filename": "street.png",
+  "tileColors": "0279+03!0222+03!024+03!0222+03!024+03!02d+03!027+03!02c+03!023+0650+04a0+06a0+0478+0628+",
+  "autoColor": false
+}
