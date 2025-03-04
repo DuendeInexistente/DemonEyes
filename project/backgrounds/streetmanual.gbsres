@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 160,
   "filename": "streetmanual.png",
-  "tileColors": "02a4+05!02d+05!02d+05!02b+05!02d+05!02d+05!022f+07208+"
+  "tileColors": "02a4+05!02d+05!02d+05!02b+05!02d+05!02d+05!022f+07208+",
+  "autoColor": false
 }

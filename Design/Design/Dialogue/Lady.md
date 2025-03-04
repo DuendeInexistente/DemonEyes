@@ -14,3 +14,6 @@
 
 
 - Relacionarla mas con la trama o remover la poca descripcion del novio que recibe. O dejar el red herring. Who knows. 
+
+
+

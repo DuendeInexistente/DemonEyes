@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0701f947-77f9-4e8a-840d-5e412934867a",
+  "name": "ConvoBG",
+  "symbol": "bg_convobg",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ConvoBG.png",
+  "tileColors": "0011+023+0011+023+0011+023+0011+023+0011+023+0039+01!00!01!0011+014+00!01!0011+013+0025+023+0011+023+0011+023+0011+023+0011+023+0011+023+0011+",
+  "autoColor": false
+}

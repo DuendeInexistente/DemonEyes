@@ -1,0 +1,217 @@
+{
+  "_resourceType": "actor",
+  "id": "1bfe858b-968a-4cbe-8e29-9a08c7a82806",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bb715892-e723-4a2d-bce8-b37a869843ac",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_23",
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "9d25d08d-9d97-47ce-930e-9c21332ddc65"
+      },
+      "id": "60b7cfc5-6cc0-4fc1-a595-23a481181b8f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"hi\""
+        ],
+        "__section": "text",
+        "avatarId": "c888725c-5c99-4694-b030-04ce6200e0ab",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "e3bcfcfe-dd6f-426e-9d20-af046b74d2df"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " \"Hello, have you seen a man this tall,\n hair like...\" The woman recites her\ndescription with no particular\nemotion in her eyes, a litany she's\nrepeated who knows how many\ntimes,and nods to herself,\n\"...Please.\""
+        ],
+        "__section": "text",
+        "avatarId": "c888725c-5c99-4694-b030-04ce6200e0ab",
+        "minHeight": 4,
+        "maxHeight": 9,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b7e9256d-0ed0-4f30-a1d3-0e4f528928b6"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "T0",
+        "items": 3,
+        "option1": "Look at",
+        "option2": "Talk",
+        "option3": "Exit",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu"
+      },
+      "id": "fb9de181-fcd4-462e-9c12-3c8c4f62fbc9"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "T0",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The girl is pretty and ragged, desperate\nfor help and crazy eyed. ",
+                "Seeing her, you're overcome with the\nwant to help her and hide from her,\nconsole her and flee. Her clothes,\nwhich would've cost more than every-\n-thing you own not too long ago,\nbarely hang on to her.\n",
+                "It's the first time she talks to you, but\nyou've heard of her. She's been appearing\naround the neighborhood occasionally for\na while."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0cde93d2-1c15-4e45-85ca-46d1b1e5643f"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7d593b69-2aa0-4605-a8be-7fc0e7b8c14f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "835d4ee8-6c4a-4b46-a51e-7464a58d5651"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "ce9fa40a-2192-4d0a-9049-b09e5b577d52"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": ""
+      },
+      "id": "b15c6e9b-27c8-48f9-8a0d-c76d6f3fe3cf"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 8,
+  "y": 14,
+  "_index": 0
+}

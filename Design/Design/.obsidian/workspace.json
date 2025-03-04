@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "b983d9984c321d01",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-02 01.53.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-02 01.53.28.excalidraw"
+            }
+          },
+          {
             "id": "7ce4239aa66071d3",
             "type": "leaf",
             "state": {
@@ -55,8 +67,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2025-02-23 20.07.42.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-23 20.07.42.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -71,30 +83,6 @@
               },
               "icon": "globe-2",
               "title": "Google Maps"
-            }
-          },
-          {
-            "id": "f1ebca6bb31ccbb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Layout.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Layout"
-            }
-          },
-          {
-            "id": "d32e223493113a60",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ]
@@ -247,8 +235,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -272,17 +260,21 @@
       "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "moredraw:MoreDraw": false,
+      "sheet-plus:Create excel file": false
     }
   },
   "active": "1e789e31f20173aa",
   "lastOpenFiles": [
+    "sheets/Excel 2025-03-03 21.26.32.univer.md",
     "Excalidraw/Drawing 2025-03-02 01.53.28.excalidraw.md",
     "Dialogue/Lady.md",
+    "sheets",
+    "Day 0.md",
     "Dialogue",
     "Chars.md",
     "Layout.md",
-    "Day 0.md",
     "Excalidraw/Drawing 2025-02-23 20.07.42.excalidraw.md",
     "Credits.md",
     "Excalidraw/Drawing 2025-02-23 21.49.30.excalidraw.md",
