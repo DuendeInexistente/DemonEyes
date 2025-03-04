@@ -419,7 +419,7 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 1,
+                          "time": 1.5,
                           "frames": 30
                         },
                         "id": "eec08ce2-e16f-4667-95df-7bf28748b424"
@@ -434,9 +434,9 @@
                           },
                           "y": {
                             "type": "number",
-                            "value": 16
+                            "value": 15
                           },
-                          "direction": "",
+                          "direction": "up",
                           "fadeSpeed": "2"
                         },
                         "id": "1627728c-7fe1-4d05-917e-5c89a798c420"

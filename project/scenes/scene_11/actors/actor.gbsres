@@ -75,128 +75,144 @@
       "id": "b7e9256d-0ed0-4f30-a1d3-0e4f528928b6"
     },
     {
-      "command": "EVENT_MENU",
-      "args": {
-        "variable": "T0",
-        "items": 3,
-        "option1": "Look at",
-        "option2": "Talk",
-        "option3": "Exit",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "menu"
-      },
-      "id": "fb9de181-fcd4-462e-9c12-3c8c4f62fbc9"
-    },
-    {
-      "command": "EVENT_SWITCH",
-      "args": {
-        "variable": "T0",
-        "choices": 2,
-        "__collapseCase0": false,
-        "value0": 1,
-        "__collapseCase1": false,
-        "value1": 2,
-        "__collapseCase2": false,
-        "value2": 3,
-        "__collapseCase3": false,
-        "value3": 4,
-        "__collapseCase4": false,
-        "value4": 5,
-        "__collapseCase5": false,
-        "value5": 6,
-        "__collapseCase6": false,
-        "value6": 7,
-        "__collapseCase7": false,
-        "value7": 8,
-        "__collapseCase8": false,
-        "value8": 9,
-        "__collapseCase9": false,
-        "value9": 10,
-        "__collapseCase10": false,
-        "value10": 11,
-        "__collapseCase11": false,
-        "value11": 12,
-        "__collapseCase12": false,
-        "value12": 13,
-        "__collapseCase13": false,
-        "value13": 14,
-        "__collapseCase14": false,
-        "value14": 15,
-        "__collapseCase15": false,
-        "value15": 16,
-        "__collapseElse": false
-      },
+      "command": "EVENT_LOOP",
+      "args": {},
       "children": {
-        "true0": [
+        "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_MENU",
             "args": {
-              "text": [
-                "The girl is pretty and ragged, desperate\nfor help and crazy eyed. ",
-                "Seeing her, you're overcome with the\nwant to help her and hide from her,\nconsole her and flee. Her clothes,\nwhich would've cost more than every-\n-thing you own not too long ago,\nbarely hang on to her.\n",
-                "It's the first time she talks to you, but\nyou've heard of her. She's been appearing\naround the neighborhood occasionally for\na while."
+              "variable": "T0",
+              "items": 3,
+              "option1": "Look at",
+              "option2": "Talk",
+              "option3": "Exit",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu"
+            },
+            "id": "fb9de181-fcd4-462e-9c12-3c8c4f62fbc9"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "T0",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The girl is pretty and ragged, desperate\nfor help and crazy eyed. ",
+                      "Seeing her, you're overcome with the\nwant to help her and hide from her,\nconsole her and flee. Her clothes,\nwhich would've cost more than every-\n-thing you own not too long ago,\nbarely hang on to her.\n",
+                      "It's the first time she talks to you, but\nyou've heard of her. She's been appearing\naround the neighborhood occasionally for\na while."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "0cde93d2-1c15-4e45-85ca-46d1b1e5643f"
+                }
               ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "true1": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "7d593b69-2aa0-4605-a8be-7fc0e7b8c14f",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "835d4ee8-6c4a-4b46-a51e-7464a58d5651"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_STOP",
+                  "args": {},
+                  "id": "4d07f63e-5cae-4784-86cb-e1635b110cb4"
+                }
+              ],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
             },
-            "id": "0cde93d2-1c15-4e45-85ca-46d1b1e5643f"
+            "id": "ce9fa40a-2192-4d0a-9049-b09e5b577d52"
           }
-        ],
-        "true1": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "7d593b69-2aa0-4605-a8be-7fc0e7b8c14f",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "835d4ee8-6c4a-4b46-a51e-7464a58d5651"
-          }
-        ],
-        "true2": [],
-        "true3": [],
-        "true4": [],
-        "true5": [],
-        "true6": [],
-        "true7": [],
-        "true8": [],
-        "true9": [],
-        "true10": [],
-        "true11": [],
-        "true12": [],
-        "true13": [],
-        "true14": [],
-        "true15": [],
-        "false": []
+        ]
       },
-      "id": "ce9fa40a-2192-4d0a-9049-b09e5b577d52"
+      "id": "b9fa0d25-bfcb-468c-a8d4-64ac8aaad50a"
     },
     {
       "command": "EVENT_PALETTE_SET_UI",
