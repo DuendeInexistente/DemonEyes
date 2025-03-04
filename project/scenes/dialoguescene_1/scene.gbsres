@@ -332,7 +332,9 @@
               "true": [
                 {
                   "command": "PT_EVENT_REPAINT_BACKGROUND",
-                  "args": {},
+                  "args": {
+                    "__comment": true
+                  },
                   "id": "40fba596-f051-4c42-b9cb-8360f47f20a1"
                 },
                 {
@@ -400,19 +402,27 @@
                         "id": "8ef89615-4e81-4873-9a5f-cfb6d86f6532"
                       },
                       {
-                        "command": "PT_EVENT_REPAINT_BACKGROUND",
-                        "args": {},
-                        "id": "01d9c9da-449a-4aaf-97d5-4ec52b913fd0"
+                        "command": "EVENT_TEXT_DRAW",
+                        "args": {
+                          "text": "She looks at you for a moment and\nlowers her eyes, a worn out\ngrimace on her lips.\nShe doesn't answer.\nHay que darle a la vida alegria\nmacarena, hay que darle al cuerpo\nalegria y cosa buena, ai\nmacarena.\nMi mama me mima y yo mimo a mi\nmama.\n",
+                          "x": 1,
+                          "y": 1,
+                          "location": "background",
+                          "__comment": true
+                        },
+                        "id": "d3b859d0-3be7-4d58-a547-773418f26ceb"
                       },
                       {
                         "command": "EVENT_TEXT_DRAW",
                         "args": {
-                          "text": "She looks at you for a moment and\nlowers her eyes, a worn out\ngrimace on her lips.\nShe doesn't answer.",
+                          "text": "She looks at you for a moment and\nlowers her eyes, a worn out\ngrimace on her lips.\nShe doesn't answer.\n",
                           "x": 1,
                           "y": 1,
-                          "location": "background"
+                          "location": "background",
+                          "__collapse": false,
+                          "__comment": false
                         },
-                        "id": "d3b859d0-3be7-4d58-a547-773418f26ceb"
+                        "id": "158ac7a0-9467-4980-8257-a20cb1745bc6"
                       },
                       {
                         "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -424,7 +434,8 @@
                           "palette4": "keep",
                           "palette5": "keep",
                           "palette6": "keep",
-                          "palette7": "keep"
+                          "palette7": "keep",
+                          "__collapse": true
                         },
                         "id": "6b1d00a3-5541-4fda-92f0-a120b1164b47"
                       }
@@ -440,7 +451,8 @@
                           "palette4": "keep",
                           "palette5": "keep",
                           "palette6": "keep",
-                          "palette7": "keep"
+                          "palette7": "keep",
+                          "__collapse": true
                         },
                         "id": "4bbab8f9-8965-4ef0-ae40-d6b254fb2650"
                       },
@@ -448,7 +460,8 @@
                         "command": "EVENT_ACTOR_EMOTE",
                         "args": {
                           "actorId": "aa46ce71-4e96-4ea2-8b89-6c1d875126f1",
-                          "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                          "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                          "__collapse": true
                         },
                         "id": "6f2802bc-5be2-41eb-bfce-e467075c09d7"
                       },
@@ -459,7 +472,8 @@
                           "x": 1,
                           "y": 1,
                           "location": "background",
-                          "__comment": false
+                          "__comment": false,
+                          "__collapse": false
                         },
                         "id": "5bb5ef5f-76fe-4836-9622-08cb7bbf057a"
                       },
@@ -473,7 +487,8 @@
                           "palette4": "keep",
                           "palette5": "keep",
                           "palette6": "keep",
-                          "palette7": "keep"
+                          "palette7": "keep",
+                          "__collapse": true
                         },
                         "id": "9932e654-c167-4bec-9403-358dad88a086"
                       }
