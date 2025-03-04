@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5943213e-c96c-49cf-8e25-9d1b3bc0bab9",
+  "name": "fonts/japanese-condensed-kanji-02",
+  "symbol": "tileset_fonts_japanese_cond_3",
+  "width": 16,
+  "height": 14,
+  "imageWidth": 128,
+  "imageHeight": 112,
+  "filename": "fonts/japanese-condensed-kanji-02.png"
+}

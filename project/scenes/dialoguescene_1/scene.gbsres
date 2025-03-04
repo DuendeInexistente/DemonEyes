@@ -378,6 +378,28 @@
                   "children": {
                     "true0": [
                       {
+                        "command": "EVENT_PALETTE_SET_BACKGROUND",
+                        "args": {
+                          "palette0": "keep",
+                          "palette1": "default-bg-1",
+                          "palette2": "keep",
+                          "palette3": "keep",
+                          "palette4": "keep",
+                          "palette5": "keep",
+                          "palette6": "keep",
+                          "palette7": "keep"
+                        },
+                        "id": "4d9095e4-ce08-4d9b-bddb-9c7c8f46aa71"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "aa46ce71-4e96-4ea2-8b89-6c1d875126f1",
+                          "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                        },
+                        "id": "8ef89615-4e81-4873-9a5f-cfb6d86f6532"
+                      },
+                      {
                         "command": "PT_EVENT_REPAINT_BACKGROUND",
                         "args": {},
                         "id": "01d9c9da-449a-4aaf-97d5-4ec52b913fd0"
@@ -391,21 +413,80 @@
                           "location": "background"
                         },
                         "id": "d3b859d0-3be7-4d58-a547-773418f26ceb"
+                      },
+                      {
+                        "command": "EVENT_PALETTE_SET_BACKGROUND",
+                        "args": {
+                          "palette0": "keep",
+                          "palette1": "restore",
+                          "palette2": "keep",
+                          "palette3": "keep",
+                          "palette4": "keep",
+                          "palette5": "keep",
+                          "palette6": "keep",
+                          "palette7": "keep"
+                        },
+                        "id": "6b1d00a3-5541-4fda-92f0-a120b1164b47"
                       }
                     ],
                     "true1": [
+                      {
+                        "command": "EVENT_PALETTE_SET_BACKGROUND",
+                        "args": {
+                          "palette0": "keep",
+                          "palette1": "default-bg-1",
+                          "palette2": "keep",
+                          "palette3": "keep",
+                          "palette4": "keep",
+                          "palette5": "keep",
+                          "palette6": "keep",
+                          "palette7": "keep"
+                        },
+                        "id": "4bbab8f9-8965-4ef0-ae40-d6b254fb2650"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "aa46ce71-4e96-4ea2-8b89-6c1d875126f1",
+                          "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                        },
+                        "id": "6f2802bc-5be2-41eb-bfce-e467075c09d7"
+                      },
                       {
                         "command": "EVENT_TEXT_DRAW",
                         "args": {
                           "text": "\"I don't know\" She says, dodging\nyour eyes with a shrug, not quite\nmanaging to hide what may be\ndisgust.\nShe's so pale it might be a few\ndays.",
                           "x": 1,
                           "y": 1,
-                          "location": "background"
+                          "location": "background",
+                          "__comment": false
                         },
                         "id": "5bb5ef5f-76fe-4836-9622-08cb7bbf057a"
+                      },
+                      {
+                        "command": "EVENT_PALETTE_SET_BACKGROUND",
+                        "args": {
+                          "palette0": "keep",
+                          "palette1": "restore",
+                          "palette2": "keep",
+                          "palette3": "keep",
+                          "palette4": "keep",
+                          "palette5": "keep",
+                          "palette6": "keep",
+                          "palette7": "keep"
+                        },
+                        "id": "9932e654-c167-4bec-9403-358dad88a086"
                       }
                     ],
                     "true2": [
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "aa46ce71-4e96-4ea2-8b89-6c1d875126f1",
+                          "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                        },
+                        "id": "3761e097-c25a-4233-ba0e-8602cc6e9edd"
+                      },
                       {
                         "command": "EVENT_TEXT_DRAW",
                         "args": {

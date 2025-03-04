@@ -209,7 +209,7 @@
                   "args": {
                     "text": "\"How long have you been looking\nfor him?\"",
                     "x": 4,
-                    "y": 10,
+                    "y": 14,
                     "location": "background"
                   },
                   "id": "2a164718-e1cb-4815-a44f-f06303fd00f2"
@@ -319,7 +319,7 @@
                   "args": {
                     "text": "\"Are you okay? When was the last\ntime you ate anything?\"",
                     "x": 4,
-                    "y": 10,
+                    "y": 14,
                     "location": "background"
                   },
                   "id": "d24d4bb1-90ba-43da-8284-62c0f29fe08a"
@@ -423,7 +423,7 @@
                   "args": {
                     "text": "Don't say anything.\n[End conversation]",
                     "x": 4,
-                    "y": 10,
+                    "y": 14,
                     "location": "background"
                   },
                   "id": "c869ec50-ea80-444e-be88-7532c16280cf"

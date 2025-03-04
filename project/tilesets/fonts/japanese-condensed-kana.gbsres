@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b231a064-a704-4869-a0bd-dc01cace49a0",
+  "name": "fonts/japanese-condensed-kana",
+  "symbol": "tileset_fonts_japanese_cond",
+  "width": 16,
+  "height": 14,
+  "imageWidth": 128,
+  "imageHeight": 112,
+  "filename": "fonts/japanese-condensed-kana.png"
+}

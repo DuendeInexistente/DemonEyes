@@ -106,6 +106,25 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_LOAD_TILESET_EX",
+            "args": {
+              "tilesetId": "18580764-b332-40ac-a03e-6b453330acad",
+              "idx_target_tile": {
+                "type": "number",
+                "value": 128
+              },
+              "idx_start_tile": {
+                "type": "number",
+                "value": 0
+              },
+              "tile_length": {
+                "type": "number",
+                "value": 128
+              }
+            },
+            "id": "1ad9514a-a734-4523-af50-a4e1acbb3192"
+          },
+          {
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "V0",
@@ -179,6 +198,15 @@
                           }
                         },
                         "id": "9c44cf6f-6406-49f2-8ba1-7c6e28b3ad92"
+                      },
+                      {
+                        "command": "EVENT_UI_ALT_DISPLAY_TEXT",
+                        "args": {
+                          "text": "",
+                          "x": 0,
+                          "y": 0
+                        },
+                        "id": "0bdff26f-cea3-411b-aa9e-190e82d79c81"
                       }
                     ],
                     "false": [

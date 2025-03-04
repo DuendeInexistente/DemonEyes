@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5b671d86-cd52-46d2-bff6-ab3539ac0b9a",
+  "name": "fonts/condensed",
+  "symbol": "tileset_fonts_condensed",
+  "width": 16,
+  "height": 14,
+  "imageWidth": 128,
+  "imageHeight": 112,
+  "filename": "fonts/condensed.png"
+}

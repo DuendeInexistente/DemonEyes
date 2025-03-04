@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b8e60545-ccc1-4007-bb4e-d95b9e224dcc",
+  "name": "fonts/gbs-var",
+  "symbol": "tileset_fonts_gbs_var",
+  "width": 16,
+  "height": 14,
+  "imageWidth": 128,
+  "imageHeight": 112,
+  "filename": "fonts/gbs-var.png"
+}
