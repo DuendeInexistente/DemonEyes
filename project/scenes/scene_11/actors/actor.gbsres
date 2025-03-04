@@ -93,7 +93,8 @@
               "option7": "",
               "option8": "",
               "cancelOnB": true,
-              "layout": "menu"
+              "layout": "menu",
+              "cancelOnLastOption": true
             },
             "id": "fb9de181-fcd4-462e-9c12-3c8c4f62fbc9"
           },
@@ -107,7 +108,7 @@
               "__collapseCase1": false,
               "value1": 2,
               "__collapseCase2": false,
-              "value2": 3,
+              "value2": 0,
               "__collapseCase3": false,
               "value3": 4,
               "__collapseCase4": false,
