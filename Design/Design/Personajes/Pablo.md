@@ -1,0 +1,1 @@
+No mucho. El noviecito, joven, impaciente por probarse a si mismo. 

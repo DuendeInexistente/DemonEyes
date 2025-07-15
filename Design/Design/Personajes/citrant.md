@@ -1,0 +1,1 @@
+Recio, locuaz, simultáneamente moral y ciego a sus propias acciones y sus consecuencias. Considera toda creatura sobrenatural no solo inhumana, más bien inmaterial, matándolos con impunidad absoluta. Caballero mirmidion, en una época en la que aun queda tal cosa, maestro de quién luego sería el último Mirmidion, luego de matar a todos los otros
