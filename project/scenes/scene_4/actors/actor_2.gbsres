@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "ea65186a-5754-4f94-ac3b-3f2e8dbc9f73",
+  "id": "813fcfbe-8756-4ce6-9013-ff4461b6e428",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "symbol": "actor_13",
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -31,7 +31,7 @@
         "direction": "down",
         "fadeSpeed": "2"
       },
-      "id": "ad985b46-9704-4013-b1b0-b54bfc0931fb"
+      "id": "576cd8b4-fd7e-418d-a86f-8999a9c11d0d"
     }
   ],
   "startScript": [],

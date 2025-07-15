@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "76e16d49-dd61-4abf-b651-c2e1b9dd767a",
+  "id": "cf7a6410-898e-40d0-ae50-196888800f0d",
   "name": "Eye L",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_11",
   "script": [],
   "startScript": [],
   "updateScript": [],

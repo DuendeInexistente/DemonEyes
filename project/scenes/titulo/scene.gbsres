@@ -1,0 +1,69 @@
+{
+  "_resourceType": "scene",
+  "id": "3026341d-2237-446c-8205-17e91c6cc165",
+  "_index": 3,
+  "type": "ADVENTURE",
+  "name": "Titulo",
+  "symbol": "scene_4",
+  "x": 64,
+  "y": 480,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "eebc18b0-e87c-4455-95ca-854025a90544",
+  "tilesetId": "",
+  "paletteIds": [
+    "c0afc528-ccc1-4e48-b9a8-91876cc3fb2c",
+    "a1ddc51e-999a-4d4a-ad7c-92ef01a1e200",
+    "",
+    "",
+    "",
+    "",
+    "dmg",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [
+    "",
+    "a1ddc51e-999a-4d4a-ad7c-92ef01a1e200"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "e9d5e442-4025-4cae-affd-a17eeb6ce3de",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "New \nGame",
+        "x": 1,
+        "y": 1,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "46aa3969-96e5-49fb-aa3e-b00bbab8f0fc"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Load \nGame",
+        "x": 15,
+        "y": 1,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "e99a8f6d-160f-463a-9797-009fa74aa275"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "@un-daguerrotipo!F:0e660d1b-8297-4fc8-b101-628f633fb58e!.bsky.social",
+        "x": 3,
+        "y": 0,
+        "location": "background"
+      },
+      "id": "130e1c4d-3ad2-45eb-8e15-8fc11dc4c790"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "",
+  "autoFadeEventCollapse": true
+}

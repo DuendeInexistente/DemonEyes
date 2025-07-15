@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c5f206af-1057-420e-8b5d-c7cb076e458d",
+  "id": "53fe9d6e-35de-404c-b8c6-33eab0e03805",
   "name": "Eye R",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_12",
   "script": [],
   "startScript": [],
   "updateScript": [],

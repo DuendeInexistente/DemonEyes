@@ -13,12 +13,12 @@
   "tilesetId": "",
   "paletteIds": [
     "9d25d08d-9d97-47ce-930e-9c21332ddc65",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "9d25d08d-9d97-47ce-930e-9c21332ddc65"
   ],
   "spritePaletteIds": [
