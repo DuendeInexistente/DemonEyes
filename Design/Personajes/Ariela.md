@@ -1,3 +1,5 @@
+
+
 Arrogante, social, de clase alta, mucho más sofisticada emocionalmente de lo que se admite a si misma; socialmente progresiva, pero escondiendolo por un sentido de supervivencia.
 
 
