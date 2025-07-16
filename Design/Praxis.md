@@ -1,6 +1,6 @@
 ## Trama básica 
 ### Hace X0 años
-Poco luego del inicio de la recesión económica, [[Esteban]] pierde su trabajo. Acongojado y perdido, mata a su familia[^1] antes que admitir esto a nadie.
+Poco luego del inicio de la recesión económica, [[Ivan]] pierde su trabajo. Acongojado y perdido, mata a su familia[^1] antes que admitir esto a nadie.
 
 [^1]: Incapaz de verlos como entidades individuales que existen más allá de si mismo, incapaz de lidiar con su propia vergüenza y orgullo.
 
@@ -9,11 +9,11 @@ Luego de esto se suicida, pero debido al cóctel emocional en que está se convi
 ### Durante el último año, en orden cronológico 
 
 - [[Prota]] pierde su trabajo.
-- [[Lorena]] pierde su vida, y vuelve como un demonio. Vive por algún tiempo en la calle
+- [[Laura]] pierde su vida, y vuelve como un demonio. Vive por algún tiempo en la calle
 - [[Pablo]] empieza a explorar ruinas. Termina cayendo en la mansion
-- Lorena, buscando un lugar para dormir, entra a la mansion, quedando atrapada en la cocina, ya que la puerta al living está trabada.
-- [[Aria]], paseando, ve el espectro de uno de los hijos de [[Esteban]] en la calle. Sintiendo que precisa ayuda lo sigue, y es atrapada en la mansion. Sin acceso a comida al estar atrapada en el living, ella y Lorena tiran abajo la puerta.
-- Luego de varios reportes de gente desapareciendo y avistamientos de un demonio (Lorena), [[Citrant]] termina en la mansion.
+- Laura, buscando un lugar para dormir, entra a la mansion, quedando atrapada en la cocina, ya que la puerta al living está trabada.
+- [[Aria]], paseando, ve el espectro de uno de los hijos de [[Ivan]] en la calle. Sintiendo que precisa ayuda lo sigue, y es atrapada en la mansion. Sin acceso a comida al estar atrapada en el living, ella y Laura tiran abajo la puerta.
+- Luego de varios reportes de gente desapareciendo y avistamientos de un demonio (Laura), [[Citrant]] termina en la mansion.
 - Prota, buscando comida, es atraído a la mansión. La puerta de cierra detrás suyo.
 
 

@@ -104,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Design/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -270,16 +270,16 @@
       "sheet-plus:Create excel file": false
     }
   },
-  "active": "d68a49316c943d41",
+  "active": "772dc98745597a02",
   "lastOpenFiles": [
+    "Design/Personajes/Laura.md",
+    "Design/Praxis.md",
     "Design/Layout.md",
     "Design/Day 0.md",
-    "Design/Praxis.md",
     "Design/Dia 0.canvas",
     "Design/Excalidraw/Drawing 2025-03-02 01.53.28.excalidraw.md",
     "Design/Personajes/Noviecita.md",
     "Design/Personajes/Pablo.md",
-    "Design/Personajes/Lorena.md",
     "Design/Dialogue/Lady.md",
     "Design/attachments/Dia 0.png",
     "Design/Dia 0.excalidraw",
