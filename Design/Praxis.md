@@ -11,8 +11,8 @@ Luego de esto se suicida, pero debido al cóctel emocional en que está se convi
 - [[Prota]] pierde su trabajo.
 - [[Lorena]] pierde su vida, y vuelve como un demonio. Vive por algún tiempo en la calle
 - [[Pablo]] empieza a explorar ruinas. Termina cayendo en la mansion
-- Lorena, buscando un lugar para dormir, entra a la mansion, quedando atrapada en la cocina, ya que la puerta está trabada.
-- [[Ariela]], paseando, ve el espectro de uno de los hijos de [[Esteban]] en la calle. Sintiendo que precisa ayuda, lo persigue, y es atrapada en la mansion. Sin acceso a comida al estar atrapada en el living, ella y Lorena tiran abajo la puerta.
+- Lorena, buscando un lugar para dormir, entra a la mansion, quedando atrapada en la cocina, ya que la puerta al living está trabada.
+- [[Aria]], paseando, ve el espectro de uno de los hijos de [[Esteban]] en la calle. Sintiendo que precisa ayuda lo sigue, y es atrapada en la mansion. Sin acceso a comida al estar atrapada en el living, ella y Lorena tiran abajo la puerta.
 - Luego de varios reportes de gente desapareciendo y avistamientos de un demonio (Lorena), [[Citrant]] termina en la mansion.
 - Prota, buscando comida, es atraído a la mansión. La puerta de cierra detrás suyo.
 
@@ -35,4 +35,4 @@ La cámara inicia sobre todas las personas en el living, discutiendo algo. La pu
 ![[Dia 0.png]]
 
 ### Día 1
-Prota se introduce a los demas, quienes le explican la situacion: La mansion esta sellada y no pueden escapar. Le explican como entraron, y Prota explora la mansion. Durante el primer dia, trabaja en desbloquear las escaleras.
+Prota se introduce a los demas, quienes le explican la situacion: La mansion esta sellada y no pueden escapar. Le explican como entraron, y Prota explora la mansion. Durante el primer dia, trabaja en desbloquear las escaleras. Al no poder, Citrant lo levanta a través del agujero, donde le dan un primer vistazo al piso antes de trabajar desbloqueando las escaleras. Mientras trabaja, una rata ([[Bichos#ranchas]]) pasa detrás suyo o se asoma de un agujero.

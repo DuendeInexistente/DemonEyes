@@ -11,5 +11,6 @@
   "keyword-highlighter",
   "canvas-connect",
   "obsidian-canvas-to-excalidraw",
-  "backlink-cache"
+  "backlink-cache",
+  "global-search-and-replace"
 ]
