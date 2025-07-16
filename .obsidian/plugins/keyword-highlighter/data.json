@@ -31,7 +31,7 @@
       "fontModifiers": [
         "bold"
       ],
-      "showColor": true,
+      "showColor": false,
       "showBackgroundColor": true
     },
     {
@@ -41,7 +41,7 @@
       "fontModifiers": [
         "bold"
       ],
-      "showColor": true,
+      "showColor": false,
       "showBackgroundColor": true
     },
     {
@@ -51,7 +51,7 @@
       "fontModifiers": [
         "bold"
       ],
-      "showColor": true,
+      "showColor": false,
       "showBackgroundColor": true
     },
     {
@@ -61,7 +61,7 @@
       "fontModifiers": [
         "bold"
       ],
-      "showColor": true,
+      "showColor": false,
       "showBackgroundColor": true
     },
     {
@@ -71,15 +71,27 @@
       "fontModifiers": [
         "bold"
       ],
-      "showColor": true,
+      "showColor": false,
       "showBackgroundColor": true
     },
     {
       "keyword": "Pablo",
       "color": "#1e1e1e",
       "backgroundColor": "#4b2670",
-      "fontModifiers": [],
-      "showColor": true,
+      "fontModifiers": [
+        "bold"
+      ],
+      "showColor": false,
+      "showBackgroundColor": true
+    },
+    {
+      "keyword": "Noviecita",
+      "color": "#1e1e1e",
+      "backgroundColor": "#4b2670",
+      "fontModifiers": [
+        "bold"
+      ],
+      "showColor": false,
       "showBackgroundColor": true
     }
   ]

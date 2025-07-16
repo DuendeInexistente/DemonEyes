@@ -33,4 +33,4 @@ En la calle, habla con [[Noviecita]] y busca un trabajo. En el camino, ve la pue
 ![[Dia 0.png]]
 
 ### Día 1
-La cámara inicia sobre todas las personas en el living, discutiendo algo. La puerta de abre 
+La cámara inicia sobre todas las personas en el living, discutiendo algo. La puerta de abre, revelando a Prota, 
