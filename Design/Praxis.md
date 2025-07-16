@@ -18,7 +18,14 @@ Luego de esto se suicida, pero debido al cóctel emocional en que está se convi
 
 
 ## Juego
+
+### Constantes universales o algo asi
+- 
 ### Dia 0
+[[Prota]] despierta en su casa, donde puede tener varias interacciones. Sus hijos estan durmiendo. Al salir a la calle, pidiendole a un vecino que le mire a los hijos, 
+
+En la calle, habla con [[Noviecita]] y busca un trabajo. En el camino, ve la puerta de la mansion cerrada, y se siente nervioso al mirarla[^2]. Cuando esto falla, cirujea, buscando al menos comida para sus hijos. En el camino de vuelta, la puerta de la mansion se abre, y Prota ve la silueta de un chico. Entra, siguiendola, y la puerta se cierra detras suyo.
 ![[Drawing 2025-02-23 20.07.42.excalidraw|50%]]
-#### Casa
-Prota despierta.  Revisa a sus hijos. 
+![[Dia 0.png]]
+
+[^2]: "Todos lo edificios abandonados se llenan de ratas. Huelen a meada. Pero esto no. Hay algo aca que ni las ratas quieren"

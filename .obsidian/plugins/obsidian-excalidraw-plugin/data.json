@@ -38,7 +38,7 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "iframeMatchExcalidrawTheme": true,
+  "iframeMatchExcalidrawTheme": false,
   "matchTheme": false,
   "matchThemeAlways": false,
   "matchThemeTrigger": false,
@@ -103,7 +103,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.8.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.13.1",
     "libraryItems": []
   },
   "imageElementNotice": true,

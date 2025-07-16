@@ -8,5 +8,8 @@
   "css-editor",
   "obsidian-style-settings",
   "double-switch",
-  "keyword-highlighter"
+  "keyword-highlighter",
+  "canvas-connect",
+  "obsidian-canvas-to-excalidraw",
+  "backlink-cache"
 ]
