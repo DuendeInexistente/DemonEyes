@@ -193,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chars.md",
+                "file": "Design/Praxis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chars"
+              "title": "Outline of Praxis"
             }
           },
           {
@@ -247,12 +247,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,10 +270,12 @@
       "sheet-plus:Create excel file": false
     }
   },
-  "active": "e1778ba9d26a33a6",
+  "active": "d68a49316c943d41",
   "lastOpenFiles": [
-    "Design/Dia 0.canvas",
+    "Design/Layout.md",
+    "Design/Day 0.md",
     "Design/Praxis.md",
+    "Design/Dia 0.canvas",
     "Design/Excalidraw/Drawing 2025-03-02 01.53.28.excalidraw.md",
     "Design/Personajes/Noviecita.md",
     "Design/Personajes/Pablo.md",
@@ -283,7 +284,6 @@
     "Design/attachments/Dia 0.png",
     "Design/Dia 0.excalidraw",
     "Design/attachments/Praxis 2025-07-15 20.34.38.excalidraw.md",
-    "Design/Layout.md",
     "Untitled.gbsproj.bak",
     "project/user_settings.gbsres",
     "project/variables.gbsres.bak",
@@ -294,7 +294,6 @@
     "project/scenes/scene_4/actors/eye_r.gbsres.bak",
     "project/scenes/scene_4/actors/eye_l.gbsres.bak",
     "Design/Personajes/Citrant.md",
-    "Design/Day 0.md",
     "Design/Personajes/Ariela.md",
     "assets/sprites/woman.png",
     "Design/Credits.md",

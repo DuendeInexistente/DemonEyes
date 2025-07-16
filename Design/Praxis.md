@@ -28,9 +28,11 @@ En la calle, habla con [[Noviecita]] y busca un trabajo. En el camino, ve la pue
 
 [^2]: "Todos lo edificios abandonados se llenan de ratas. Huelen a meada. Pero esto no. Hay algo aca que ni las ratas quieren"
 
+La cámara inicia sobre todas las personas en el living, discutiendo algo. La puerta de abre, revelando a Prota, y todos se congelan. Le gritan que tenga la puerta abierta, pero se cierra de un portazo, empujandolo. Luego, cuando les dice que la puerta estuvo abierta por un tiempo y podrian haber pasado, le insisten que no.
+
 
 ![[Drawing 2025-02-23 20.07.42.excalidraw|50%]]
 ![[Dia 0.png]]
 
 ### Día 1
-La cámara inicia sobre todas las personas en el living, discutiendo algo. La puerta de abre, revelando a Prota, 
+Prota se introduce a los demas, quienes le explican la situacion: La mansion esta sellada y no pueden escapar. Le explican como entraron, y Prota explora la mansion. Durante el primer dia, trabaja en desbloquear las escaleras.
