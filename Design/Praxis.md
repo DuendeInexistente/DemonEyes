@@ -28,4 +28,5 @@ En la calle, habla con [[Noviecita]] y busca un trabajo. En el camino, ve la pue
 ![[Drawing 2025-02-23 20.07.42.excalidraw|50%]]
 ![[Dia 0.png]]
 
+
 [^2]: "Todos lo edificios abandonados se llenan de ratas. Huelen a meada. Pero esto no. Hay algo aca que ni las ratas quieren"

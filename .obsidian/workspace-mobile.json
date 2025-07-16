@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personajes/Lorena.md",
+                "file": "Design/Praxis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,11 +38,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Lorena"
+              "title": "Praxis"
             }
           }
         ],
