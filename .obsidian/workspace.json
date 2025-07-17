@@ -247,11 +247,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -272,15 +273,19 @@
   },
   "active": "772dc98745597a02",
   "lastOpenFiles": [
-    "Design/Personajes/Laura.md",
+    "Design/Bichos.md",
     "Design/Praxis.md",
+    "Design/[[Bichos.md",
+    "Design/attachments/Pasted image 20250223200655.png",
+    "Design/Dialogue/Lady.md",
+    "Design/Personajes/Gawain.md",
+    "Design/Personajes/Noviecita.md",
+    "Design/Personajes/Laura.md",
     "Design/Layout.md",
     "Design/Day 0.md",
     "Design/Dia 0.canvas",
     "Design/Excalidraw/Drawing 2025-03-02 01.53.28.excalidraw.md",
-    "Design/Personajes/Noviecita.md",
     "Design/Personajes/Pablo.md",
-    "Design/Dialogue/Lady.md",
     "Design/attachments/Dia 0.png",
     "Design/Dia 0.excalidraw",
     "Design/attachments/Praxis 2025-07-15 20.34.38.excalidraw.md",
@@ -293,7 +298,6 @@
     "project/scenes/scene_4/actors/actor_2.gbsres.bak",
     "project/scenes/scene_4/actors/eye_r.gbsres.bak",
     "project/scenes/scene_4/actors/eye_l.gbsres.bak",
-    "Design/Personajes/Citrant.md",
     "Design/Personajes/Ariela.md",
     "assets/sprites/woman.png",
     "Design/Credits.md",

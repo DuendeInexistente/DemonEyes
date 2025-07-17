@@ -13,14 +13,14 @@ Luego de esto se suicida, pero debido al cóctel emocional en que está se convi
 - [[Pablo]] empieza a explorar ruinas. Termina cayendo en la mansion
 - Laura, buscando un lugar para dormir, entra a la mansion, quedando atrapada en la cocina, ya que la puerta al living está trabada.
 - [[Aria]], paseando, ve el espectro de uno de los hijos de [[Ivan]] en la calle. Sintiendo que precisa ayuda lo sigue, y es atrapada en la mansion. Sin acceso a comida al estar atrapada en el living, ella y Laura tiran abajo la puerta.
-- Luego de varios reportes de gente desapareciendo y avistamientos de un demonio (Laura), [[Citrant]] termina en la mansion.
+- Luego de varios reportes de gente desapareciendo y avistamientos de un demonio (Laura), [[Gawain]] termina en la mansion.
 - Prota, buscando comida, es atraído a la mansión. La puerta de cierra detrás suyo.
 
 
 ## Juego
 
 ### Constantes universales o algo asi
-- 
+- Pan? Tengo que decidir si el sistema vale la pena
 ### Dia 0
 [[Prota]] despierta en su casa, donde puede tener varias interacciones. Sus hijos estan durmiendo. Al salir a la calle, pidiendole a un vecino que le mire a los hijos, 
 
@@ -35,4 +35,9 @@ La cámara inicia sobre todas las personas en el living, discutiendo algo. La pu
 ![[Dia 0.png]]
 
 ### Día 1
-Prota se introduce a los demas, quienes le explican la situacion: La mansion esta sellada y no pueden escapar. Le explican como entraron, y Prota explora la mansion. Durante el primer dia, trabaja en desbloquear las escaleras. Al no poder, Citrant lo levanta a través del agujero, donde le dan un primer vistazo al piso antes de trabajar desbloqueando las escaleras. Mientras trabaja, una rata ([[Bichos#ranchas]]) pasa detrás suyo o se asoma de un agujero.
+Prota se introduce a los demas, quienes le explican la situacion: La mansion esta sellada y no pueden escapar. Le explican como entraron, y Prota explora la mansion. Durante el primer dia, trabaja en desbloquear las escaleras. Al no poder, Gawain lo levanta a través del agujero, donde le dan un primer vistazo al piso antes de trabajar desbloqueando las escaleras. Mientras trabaja, una [rata](Bichos#ranchas) pasa detrás suyo o se asoma de un agujero.
+
+![[Pasted image 20250223200655.png]]
+### Día 2
+Se explora mas el segundo piso y se utiliza algo conseguido ahi para abrir la habitacion al costado de la cocina, dando acceso a mas comida y algun elemento narrativo. Quizas un cuerpo, o algo dejado por Ivan. Quizas caca de rata. La mitad del segundo piso sigue bloqueada, y Prota escucha a alguien respirar en el segundo piso, asi que golpea la puerta, pero no hay respuesta.
+
