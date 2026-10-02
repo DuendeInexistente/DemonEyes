@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "0701f947-77f9-4e8a-840d-5e412934867a",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "9d25d08d-9d97-47ce-930e-9c21332ddc65",
     "",
@@ -85,7 +86,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__collapse": true
+        "__collapse": true,
+        "collideWith": []
       },
       "id": "13b9d26c-2446-4478-90ce-deac1ce688de"
     },
@@ -111,7 +113,8 @@
         },
         "moveType": "horizontal",
         "useCollisions": false,
-        "__collapse": true
+        "__collapse": true,
+        "collideWith": []
       },
       "id": "c5d245c8-efb4-4c3a-9e2b-487b9326f4ce"
     },
@@ -185,8 +188,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.2,
-                          "frames": 30,
+                          "time": {
+                            "type": "number",
+                            "value": 0.2
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          },
                           "__comment": false
                         },
                         "id": "6bb48f11-9542-49d3-8a74-616f16a1fa30"
@@ -271,8 +280,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.2,
-                          "frames": 30
+                          "time": {
+                            "type": "number",
+                            "value": 0.2
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         },
                         "id": "e10c8a23-89c4-4e5d-aea4-6c6bada27cec"
                       },
@@ -343,37 +358,85 @@
                     "variable": "T0",
                     "choices": 3,
                     "__collapseCase0": false,
-                    "value0": 1,
+                    "value0": {
+                      "type": "number",
+                      "value": 1
+                    },
                     "__collapseCase1": false,
-                    "value1": 2,
+                    "value1": {
+                      "type": "number",
+                      "value": 2
+                    },
                     "__collapseCase2": false,
-                    "value2": 3,
+                    "value2": {
+                      "type": "number",
+                      "value": 3
+                    },
                     "__collapseCase3": false,
-                    "value3": 4,
+                    "value3": {
+                      "type": "number",
+                      "value": 4
+                    },
                     "__collapseCase4": false,
-                    "value4": 5,
+                    "value4": {
+                      "type": "number",
+                      "value": 5
+                    },
                     "__collapseCase5": false,
-                    "value5": 6,
+                    "value5": {
+                      "type": "number",
+                      "value": 6
+                    },
                     "__collapseCase6": false,
-                    "value6": 7,
+                    "value6": {
+                      "type": "number",
+                      "value": 7
+                    },
                     "__collapseCase7": false,
-                    "value7": 8,
+                    "value7": {
+                      "type": "number",
+                      "value": 8
+                    },
                     "__collapseCase8": false,
-                    "value8": 9,
+                    "value8": {
+                      "type": "number",
+                      "value": 9
+                    },
                     "__collapseCase9": false,
-                    "value9": 10,
+                    "value9": {
+                      "type": "number",
+                      "value": 10
+                    },
                     "__collapseCase10": false,
-                    "value10": 11,
+                    "value10": {
+                      "type": "number",
+                      "value": 11
+                    },
                     "__collapseCase11": false,
-                    "value11": 12,
+                    "value11": {
+                      "type": "number",
+                      "value": 12
+                    },
                     "__collapseCase12": false,
-                    "value12": 13,
+                    "value12": {
+                      "type": "number",
+                      "value": 13
+                    },
                     "__collapseCase13": false,
-                    "value13": 14,
+                    "value13": {
+                      "type": "number",
+                      "value": 14
+                    },
                     "__collapseCase14": false,
-                    "value14": 15,
+                    "value14": {
+                      "type": "number",
+                      "value": 15
+                    },
                     "__collapseCase15": false,
-                    "value15": 16,
+                    "value15": {
+                      "type": "number",
+                      "value": 16
+                    },
                     "__collapseElse": false,
                     "__collapse": false
                   },
@@ -515,8 +578,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 1.5,
-                          "frames": 30
+                          "time": {
+                            "type": "number",
+                            "value": 1.5
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         },
                         "id": "eec08ce2-e16f-4667-95df-7bf28748b424"
                       },

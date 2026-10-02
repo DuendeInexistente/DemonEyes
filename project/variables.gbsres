@@ -31,5 +31,6 @@
       "name": "Loops",
       "symbol": "var_loops"
     }
-  ]
+  ],
+  "constants": []
 }

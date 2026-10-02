@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "street2.tmx",
+    "activeFile": "street3.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -12,78 +12,94 @@
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 131.25,
-                "y": 116.875
+                "x": 80,
+                "y": 120.125
             }
         },
         "2ndfloorblocked.tmx": {
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 118,
-                "y": 141.83333333333331
+                "x": 80,
+                "y": 120.16666666666667
             }
         },
         "2ndfloorbridged.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 118.75,
-                "y": 101.125
+                "x": 80,
+                "y": 120.125
             }
         },
         "Base.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 2,
             "scaleInEditor": 1
+        },
+        "Plaza.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 120,
+                "y": 120.16666666666667
+            }
         },
         "living room.tmx": {
             "scale": 1.5,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 156,
-                "y": 189.66666666666666
+                "x": 80,
+                "y": 119.66666666666666
             }
         },
         "room.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 111.25,
-                "y": 63.625
+                "x": 120,
+                "y": 80.125
             }
         },
         "street.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 213.63636363636365,
-                "y": 102.63636363636363
+                "x": 160,
+                "y": 80.0909090909091
             }
         },
         "street2.tmx": {
-            "scale": 1.5,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 239.3333333333333,
-                "y": 127
+                "x": 160,
+                "y": 79.75
+            }
+        },
+        "street3.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 142.5,
+                "y": 20.25
             }
         },
         "tile tests.tmx": {
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 815,
-                "y": 288.5
+                "x": 780,
+                "y": 610.5
             }
         }
     },
     "last.imagePath": "/home/duende/Documents/Untitled/assets/backgrounds",
     "map.fixedSize": true,
-    "map.height": 30,
+    "map.height": 20,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 30,
+    "map.width": 20,
     "openFiles": [
         "Base.tsx",
         "tile tests.tmx",
@@ -92,7 +108,10 @@
         "2ndfloor.tmx",
         "2ndfloorbridged.tmx",
         "street.tmx",
-        "street2.tmx"
+        "street2.tmx",
+        "2ndfloorblocked.tmx",
+        "Plaza.tmx",
+        "street3.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
@@ -103,7 +122,10 @@
         "2ndfloor.tmx",
         "2ndfloorbridged.tmx",
         "street.tmx",
-        "street2.tmx"
+        "street2.tmx",
+        "2ndfloorblocked.tmx",
+        "Plaza.tmx",
+        "street3.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

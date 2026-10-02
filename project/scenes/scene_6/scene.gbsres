@@ -2,12 +2,16 @@
   "_resourceType": "scene",
   "id": "e75c9d49-952f-428a-9231-260658830235",
   "_index": 5,
+  "type": "TOPDOWN",
   "name": "Scene 6",
-  "backgroundId": "2ac71990-965a-440a-a1ae-fd952fcdbb87",
-  "tilesetId": "",
+  "symbol": "scene_6",
+  "x": 264,
+  "y": 776,
   "width": 20,
   "height": 30,
-  "type": "TOPDOWN",
+  "backgroundId": "2ac71990-965a-440a-a1ae-fd952fcdbb87",
+  "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-1",
     "default-bg-2",
@@ -19,13 +23,10 @@
     "default-ui"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_6",
-  "x": 264,
-  "y": 776,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

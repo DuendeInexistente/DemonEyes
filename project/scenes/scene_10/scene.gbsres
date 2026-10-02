@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "66e05c75-b20f-45d7-a174-3a85be7542ae",
   "_index": 9,
-  "name": "Scene 10",
-  "backgroundId": "aec70b7a-8d1c-414f-b6f4-a8188c83bb22",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Scene 10",
   "symbol": "scene_10",
   "x": 520,
   "y": 784,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "aec70b7a-8d1c-414f-b6f4-a8188c83bb22",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "5e2856e6-1b40-4e7f-9b94-d4c84657a7e8",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -123,8 +124,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.2,
-                          "frames": 30,
+                          "time": {
+                            "type": "number",
+                            "value": 0.2
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          },
                           "__comment": false
                         },
                         "id": "f58ca657-a251-4a7a-b24f-064829936a9d"
@@ -219,8 +226,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.2,
-                          "frames": 30
+                          "time": {
+                            "type": "number",
+                            "value": 0.2
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         },
                         "id": "7de5655e-8062-4146-95eb-34ccfaca760b"
                       },
@@ -302,37 +315,85 @@
                     "variable": "L5",
                     "choices": 3,
                     "__collapseCase0": false,
-                    "value0": 1,
+                    "value0": {
+                      "type": "number",
+                      "value": 1
+                    },
                     "__collapseCase1": false,
-                    "value1": 2,
+                    "value1": {
+                      "type": "number",
+                      "value": 2
+                    },
                     "__collapseCase2": false,
-                    "value2": 3,
+                    "value2": {
+                      "type": "number",
+                      "value": 3
+                    },
                     "__collapseCase3": false,
-                    "value3": 4,
+                    "value3": {
+                      "type": "number",
+                      "value": 4
+                    },
                     "__collapseCase4": false,
-                    "value4": 5,
+                    "value4": {
+                      "type": "number",
+                      "value": 5
+                    },
                     "__collapseCase5": false,
-                    "value5": 6,
+                    "value5": {
+                      "type": "number",
+                      "value": 6
+                    },
                     "__collapseCase6": false,
-                    "value6": 7,
+                    "value6": {
+                      "type": "number",
+                      "value": 7
+                    },
                     "__collapseCase7": false,
-                    "value7": 8,
+                    "value7": {
+                      "type": "number",
+                      "value": 8
+                    },
                     "__collapseCase8": false,
-                    "value8": 9,
+                    "value8": {
+                      "type": "number",
+                      "value": 9
+                    },
                     "__collapseCase9": false,
-                    "value9": 10,
+                    "value9": {
+                      "type": "number",
+                      "value": 10
+                    },
                     "__collapseCase10": false,
-                    "value10": 11,
+                    "value10": {
+                      "type": "number",
+                      "value": 11
+                    },
                     "__collapseCase11": false,
-                    "value11": 12,
+                    "value11": {
+                      "type": "number",
+                      "value": 12
+                    },
                     "__collapseCase12": false,
-                    "value12": 13,
+                    "value12": {
+                      "type": "number",
+                      "value": 13
+                    },
                     "__collapseCase13": false,
-                    "value13": 14,
+                    "value13": {
+                      "type": "number",
+                      "value": 14
+                    },
                     "__collapseCase14": false,
-                    "value14": 15,
+                    "value14": {
+                      "type": "number",
+                      "value": 15
+                    },
                     "__collapseCase15": false,
-                    "value15": 16,
+                    "value15": {
+                      "type": "number",
+                      "value": 16
+                    },
                     "__collapseElse": false,
                     "__collapse": false
                   },
@@ -352,8 +413,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.7,
-                          "frames": 30
+                          "time": {
+                            "type": "number",
+                            "value": 0.7
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         },
                         "id": "9b2158cb-225f-4e64-bc03-8a5a1f8f2e56"
                       },
@@ -375,8 +442,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.5,
-                          "frames": 30
+                          "time": {
+                            "type": "number",
+                            "value": 0.5
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          }
                         },
                         "id": "b3d0af7e-d3ec-4a32-a9d4-aa0f8cc15936"
                       },
@@ -491,5 +564,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "5e2856e6-1b40-4e7f-9b94-d4c84657a7e8"
+  "collisions": ""
 }

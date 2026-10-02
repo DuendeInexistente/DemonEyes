@@ -11,6 +11,7 @@
   "height": 20,
   "backgroundId": "307e1929-4479-45f0-ac23-9d9fb3842feb",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "",
     "",
@@ -32,10 +33,10 @@
     "9d25d08d-9d97-47ce-930e-9c21332ddc65"
   ],
   "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "c8beb820-3abe-401f-ae1b-3c058d621c9a",
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00c8+0f2a+008+0f!004+0f!007+0f!006+0f!005+0f!004+0f!00d+0f!007+0f!00c+0f!001e3+",
-  "playerSpriteSheetId": "c8beb820-3abe-401f-ae1b-3c058d621c9a"
+  "collisions": "00c8+0f2a+008+0f!004+0f!007+0f!006+0f!005+0f!004+0f!00d+0f!007+0f!00c+0f!001e3+"
 }

@@ -5,12 +5,12 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "ff047980-3bf0-4b0b-bbd2-ab74ac35d02b",
+  "paletteId": "",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "collisionExtraFlags": [],
   "script": [
     {
       "command": "EVENT_TEXT",

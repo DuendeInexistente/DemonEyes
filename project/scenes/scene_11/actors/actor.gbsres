@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "1bfe858b-968a-4cbe-8e29-9a08c7a82806",
+  "_index": 0,
+  "symbol": "actor_23",
+  "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
+  "x": 8,
+  "y": 14,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "bb715892-e723-4a2d-bce8-b37a869843ac",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_23",
   "script": [
     {
       "command": "EVENT_PALETTE_SET_UI",
@@ -104,37 +109,85 @@
               "variable": "T0",
               "choices": 3,
               "__collapseCase0": false,
-              "value0": 1,
+              "value0": {
+                "type": "number",
+                "value": 1
+              },
               "__collapseCase1": false,
-              "value1": 2,
+              "value1": {
+                "type": "number",
+                "value": 2
+              },
               "__collapseCase2": false,
-              "value2": 0,
+              "value2": {
+                "type": "number",
+                "value": 0
+              },
               "__collapseCase3": false,
-              "value3": 4,
+              "value3": {
+                "type": "number",
+                "value": 4
+              },
               "__collapseCase4": false,
-              "value4": 5,
+              "value4": {
+                "type": "number",
+                "value": 5
+              },
               "__collapseCase5": false,
-              "value5": 6,
+              "value5": {
+                "type": "number",
+                "value": 6
+              },
               "__collapseCase6": false,
-              "value6": 7,
+              "value6": {
+                "type": "number",
+                "value": 7
+              },
               "__collapseCase7": false,
-              "value7": 8,
+              "value7": {
+                "type": "number",
+                "value": 8
+              },
               "__collapseCase8": false,
-              "value8": 9,
+              "value8": {
+                "type": "number",
+                "value": 9
+              },
               "__collapseCase9": false,
-              "value9": 10,
+              "value9": {
+                "type": "number",
+                "value": 10
+              },
               "__collapseCase10": false,
-              "value10": 11,
+              "value10": {
+                "type": "number",
+                "value": 11
+              },
               "__collapseCase11": false,
-              "value11": 12,
+              "value11": {
+                "type": "number",
+                "value": 12
+              },
               "__collapseCase12": false,
-              "value12": 13,
+              "value12": {
+                "type": "number",
+                "value": 13
+              },
               "__collapseCase13": false,
-              "value13": 14,
+              "value13": {
+                "type": "number",
+                "value": 14
+              },
               "__collapseCase14": false,
-              "value14": 15,
+              "value14": {
+                "type": "number",
+                "value": 15
+              },
               "__collapseCase15": false,
-              "value15": 16,
+              "value15": {
+                "type": "number",
+                "value": 16
+              },
               "__collapseElse": false,
               "__collapse": false
             },
@@ -148,7 +201,7 @@
                       "Seeing her, you're overcome with the\nwant to help her and hide from her,\nconsole her and flee. Her clothes,\nwhich would've cost more than every-\n-thing you own not too long ago,\nbarely hang on to her.\n",
                       "It's the first time she talks to you, but\nyou've heard of her. She's been appearing\naround the neighborhood occasionally for\na while."
                     ],
-                    "__section": "layout",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 2,
                     "maxHeight": 7,
@@ -227,8 +280,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 8,
-  "y": 14,
-  "_index": 0
+  "hit3Script": []
 }
